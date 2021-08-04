@@ -15,6 +15,7 @@ namespace Book_Store.Controllers.AdminController
     [Route("api/[controller]")]
     [EnableCors("AllowOrigin")]
     [ApiController]
+
     public class BookController : ControllerBase
     {
         private readonly IBookManagementBL bookManagementBL;

@@ -16,6 +16,7 @@ namespace RepositoryLayer
         readonly string sqlConnectString;
         ICollection<ResponseBookDB> Books;
         ResponseBookDB Book;
+
         readonly string InserBookRecordSQL = "InserBookRecord";
         readonly string GetBookRecordSQL = "GetCustomerBookRecord";
         readonly string DeleteBookRecordSQL = "DeleteBookRecord";
