@@ -36,6 +36,7 @@ namespace BusinessLayer.JWTAuthentication
             return GenerateJSONWebToken(ExpireTime, Claims);
         }
 
+
         public string GenerateAdminSessionJWT(AdminAccount userInfo)
         {
             DateTime ExpireTime = DateTime.Now.AddDays(10);

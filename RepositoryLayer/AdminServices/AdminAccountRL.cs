@@ -23,6 +23,11 @@ namespace RepositoryLayer.AdminServices
                 //+ "Connection Timeout=30;Connection Lifetime=0;Min Pool Size=0;Max Pool Size=100;Pooling=true;";
         }
 
+        /// <summary>
+        /// Admin
+        /// </summary>
+        /// <param name="loginAdminAccount"></param>
+        /// <returns></returns>
         public AdminAccount LoginAdmin(LoginAdminAccount loginAdminAccount)
         {
             try
