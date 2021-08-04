@@ -16,6 +16,7 @@ namespace BusinessLayer.CustomerServices
         PasswordEncryption passwordEncryption = new PasswordEncryption();
         MSMQService MSMQ;
 
+
         public CustomerAccountBL(ICustomerAccountRL customerAccountRL, IConfiguration config)
         {
             this.customerAccountRL = customerAccountRL;
