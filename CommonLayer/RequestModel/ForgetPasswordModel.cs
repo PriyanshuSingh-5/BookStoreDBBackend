@@ -7,6 +7,7 @@ namespace CommonLayer.RequestModel
 {
     public class ForgetPasswordModel
     {
+
         [Required]
         public string Email { get; set; }
     }

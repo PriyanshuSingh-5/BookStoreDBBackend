@@ -34,6 +34,7 @@ namespace BusinessLayer.EmailServices
         {
             try
             {
+
                 using (StreamReader streamReader = new StreamReader(config["IssuerEmailDetail:ForgetPasswordHtmlBodyFile"], Encoding.UTF8))
                 {
                     HtmlBody = streamReader.ReadToEnd();

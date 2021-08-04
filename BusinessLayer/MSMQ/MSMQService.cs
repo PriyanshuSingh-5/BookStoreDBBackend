@@ -13,6 +13,7 @@ namespace BusinessLayer.MSMQ
         readonly EmailService emailService;
         readonly MessageQueue queue = new MessageQueue(@".\private$\FunDooNotes");
 
+
         public MSMQService(IConfiguration config)
         {
             emailService = new EmailService(config);
