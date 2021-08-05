@@ -6,6 +6,7 @@ namespace CommonLayer.ResponseModel
 {
     public class CustomerCart
     {
+
         public long CartID { get; set; }
         public string BookName { get; set; }
         public string AuthorName { get; set; }

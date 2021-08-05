@@ -10,6 +10,7 @@ namespace RepositoryLayer.CustomerServices
 {
     public class CustomerCartRL : ICustomerCartRL
     {
+
         private readonly IConfiguration config;
         readonly SqlConnection connection = new SqlConnection();
         readonly string sqlConnectString;

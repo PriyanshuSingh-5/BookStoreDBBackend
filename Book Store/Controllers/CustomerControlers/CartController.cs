@@ -16,6 +16,7 @@ namespace Book_Store.Controllers.CustomerControlers
     [ApiController]
     [EnableCors("AllowOrigin")]
     [Authorize(Roles = Role.Customer)]
+
     public class CartController : ControllerBase
     {
         ICustomerCartBL customerCartBL;
