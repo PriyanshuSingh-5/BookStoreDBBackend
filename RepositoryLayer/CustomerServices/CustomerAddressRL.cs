@@ -11,6 +11,7 @@ namespace RepositoryLayer.CustomerServices
 {
     public class CustomerAddressRL : ICustomerAddressRL
     {
+
         private readonly IConfiguration config;
         readonly SqlConnection connection = new SqlConnection();
         readonly string sqlConnectString;

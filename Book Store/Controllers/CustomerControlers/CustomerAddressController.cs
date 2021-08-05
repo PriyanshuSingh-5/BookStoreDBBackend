@@ -18,6 +18,7 @@ namespace Book_Store.Controllers.CustomerControlers
     [ApiController]
     [EnableCors("AllowOrigin")]
     [Authorize(Roles = Role.Customer)]
+
     public class CustomerAddressController : ControllerBase
     {
         private readonly ICustomerAddressBL CustomerAddressBL;

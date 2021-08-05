@@ -14,6 +14,7 @@ namespace BusinessLayer.CustomerServices
 
         public CustomerAddressBL(ICustomerAddressRL customerAddressRL)
         {
+
             this.customerAddressRL = customerAddressRL;
         }
 
