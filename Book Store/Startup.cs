@@ -50,6 +50,8 @@ namespace Book_Store
             services.AddScoped<ICustomerWishListRL, CustomerWishListRL>();
             services.AddScoped<ICustomerOrderBL, CustomerOrderBL>();
             services.AddScoped<ICustomerOrderRL, CustomerOrderRL>();
+            services.AddScoped<IReviewBL, ReviewBL>();
+            services.AddScoped<IReviewRL, ReviewRL>();
             services.AddAuthorization(options =>
             {
                 options.AddPolicy("RequireAdministratorRole",
