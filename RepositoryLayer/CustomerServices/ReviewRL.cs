@@ -11,7 +11,7 @@ namespace RepositoryLayer.CustomerServices
 {
     public class ReviewRL : IReviewRL
     {
-        // Add connection code
+        
         private readonly IConfiguration _configuration;
         private SqlConnection connection;
         public ReviewRL(IConfiguration configuration)
