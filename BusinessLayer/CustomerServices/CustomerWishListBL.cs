@@ -40,7 +40,6 @@ namespace BusinessLayer.CustomerServices
             }
         }
 
-
         public ICollection<CustomerWishList> RemoveBookFromWishList(string CustomerID, long BookID)
         {
             try

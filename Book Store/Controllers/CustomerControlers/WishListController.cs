@@ -89,6 +89,7 @@ namespace Book_Store.Controllers.CustomerControlers
                 }
                 return BadRequest(new { success = false, Message = "Book remove from WishList Unsuccessful" });
             }
+
             catch (Exception exception)
             {
                 return BadRequest(new { success = false, exception.Message });
