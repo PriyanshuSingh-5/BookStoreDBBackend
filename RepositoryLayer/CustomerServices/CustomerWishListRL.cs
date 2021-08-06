@@ -9,6 +9,7 @@ using RepositoryLayer.CutomerInterfaces;
 
 namespace RepositoryLayer.CustomerServices
 {
+
     public class CustomerWishListRL : ICustomerWishListRL
     {
         private readonly IConfiguration config;
